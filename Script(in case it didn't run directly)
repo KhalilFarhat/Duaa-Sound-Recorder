@@ -1,0 +1,41 @@
+@echo off
+
+:: Check for administrator privileges
+NET SESSION >nul 2>&1
+if %ERRORLEVEL% NEQ 0 (
+  echo Administrator privileges are required to install Python and the packages.
+  pause
+  exit /b 1
+)
+
+:: Install Python (change the file name if needed)
+echo Installing Python...
+start /wait "%~dp0python-3.11.4-amd64.exe" /quiet PrependPath=1
+
+:: Install Windows Desktop Runtime (change the file name if needed)
+echo Installing Windows Desktop Runtime...
+start /wait "%~dp0windowsdesktop-runtime-6.0.20-win-x64.exe" /quiet /norestart
+
+:: Activate Python virtual environment (optional, if you want to use a virtual environment)
+:: Uncomment the following line if you want to activate a virtual environment
+:: call venv\Scripts\activate
+
+:: Install required Python packages
+echo Installing required packages...
+python -m pip install SpeechRecognition arabic-reshaper vosk PyAudio unidecode biopython
+
+:: Check the installation result
+if %ERRORLEVEL% NEQ 0 (
+  echo An error occurred during the installation. Please check the error messages above.
+) else (
+  echo Installation completed successfully.
+
+  :: Generate a log file with the installed packages
+  echo Installed Packages: > installed_packages.txt
+  python -m pip freeze >> installed_packages.txt
+
+  :: Check for pip updates
+  python -m pip install --upgrade pip
+)
+
+pause
