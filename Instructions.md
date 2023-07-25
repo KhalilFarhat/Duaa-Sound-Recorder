@@ -27,6 +27,8 @@ b. Download and install "python-3.11.4-amd64.exe" by running the executable and 
 
 Once both installations are complete, run the "installer.bat" file with administrator privileges. This will install all the other required packages.
 
+In case it doesn't open, you can find the script on GitHub and use it.
+
 Please note that administrator privileges are required for the installation process.
 ---------------------------------------------------------------------------------------------------------------------------
 
