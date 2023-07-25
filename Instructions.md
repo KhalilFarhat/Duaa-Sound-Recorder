@@ -1,13 +1,17 @@
 Installation
-Download the desktop application installer from [Download Link].
+----------------
+Download the desktop application installer from https://mega.nz/file/y2hkkJrC#ihYNZeyLHrWzaYIKtuQmr_noHaWrSC-Y83OhU3cv12E.
 
 Run the installer to install the desktop application. Follow the on-screen instructions.
 
 Setup Required Libraries/Packages:
 
+
 a. After the installation is complete, do not run the application directly.
 
+
 b. Right-click on the application icon and click on "Open File Location."
+
 
 c. In the file location, search for a file named "ReadMe.txt" for further instructions.
 
