@@ -4,7 +4,9 @@ Download the desktop application installer from https://mega.nz/file/y2hkkJrC#ih
 
 Run the installer to install the desktop application. Follow the on-screen instructions.
 
+
 Setup Required Libraries/Packages:
+----------------------------------
 
 
 a. After the installation is complete, do not run the application directly.
