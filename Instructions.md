@@ -1,4 +1,4 @@
-Installation Instructions
+Installation
 Download and run the installer to install the desktop application.
 
 After the installation is complete, do not run the application directly.
