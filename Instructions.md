@@ -17,6 +17,8 @@ b. Right-click on the application icon and click on "Open File Location."
 
 c. In the file location, search for a file named "ReadMe.txt" for further instructions.
 
+-------------------------------------------------------------------------------------------------------------
+
 Install the following files in the specified order:
 
 a. Download and install "windowsdesktop-runtime-6.0.20-win-x64.exe" by running the executable and completing the installation process.
