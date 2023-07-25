@@ -28,6 +28,7 @@ b. Download and install "python-3.11.4-amd64.exe" by running the executable and 
 Once both installations are complete, run the "installer.bat" file with administrator privileges. This will install all the other required packages.
 
 Please note that administrator privileges are required for the installation process.
+---------------------------------------------------------------------------------------------------------------------------
 
 ![1](https://github.com/KhalilFarhat/Duaa-Sound-Recorder/assets/100374222/78dc92ae-b217-4111-b3c6-06bc0deff67a)
 
