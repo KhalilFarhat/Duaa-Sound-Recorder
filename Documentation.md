@@ -19,6 +19,7 @@ Data Models:
 The application includes two pre-trained data models for speech recognition:
 
 vosk-model-ar-mgb2-0.4: A Vosk model trained for Arabic speech recognition.
+
 vosk-model-small-en-us-0.15: A Vosk model trained for English (US) speech recognition.
 Please ensure that these data models are located within the "DataModels" folder for the application to function correctly.
 
