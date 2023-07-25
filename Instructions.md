@@ -1,17 +1,21 @@
 Installation
-Download and run the installer to install the desktop application.
+Download the desktop application installer from [Download Link].
 
-After the installation is complete, do not run the application directly.
+Run the installer to install the desktop application. Follow the on-screen instructions.
 
-Close the installer and follow these steps to set up the required libraries/packages:
+Setup Required Libraries/Packages:
 
-a. Right-click on the application icon and click on "Open File Location."
-b. In the file location, search for a file named "ReadMe.txt" for further instructions.
+a. After the installation is complete, do not run the application directly.
+
+b. Right-click on the application icon and click on "Open File Location."
+
+c. In the file location, search for a file named "ReadMe.txt" for further instructions.
 
 Install the following files in the specified order:
 
-a. Install "windowsdesktop-runtime-6.0.20-win-x64.exe" by running the executable and completing the installation process.
-b. Install "python-3.11.4-amd64.exe" by running the executable and completing the installation process. During installation, make sure to add the Python path to the environmental variables.
+a. Download and install "windowsdesktop-runtime-6.0.20-win-x64.exe" by running the executable and completing the installation process.
+
+b. Download and install "python-3.11.4-amd64.exe" by running the executable and completing the installation process. During installation, make sure to add the Python path to the environmental variables.
 
 Once both installations are complete, run the "installer.bat" file with administrator privileges. This will install all the other required packages.
 
